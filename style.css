@@ -1,0 +1,397 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+.heaer {
+    display: flex;
+    flex-direction: column;
+    background-image: url(./img/04-ActiveBox_2.png);
+    align-items: center;
+}
+
+.upper-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1.5rem 7rem;
+}
+
+.nav ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+    background-color: pink;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.nav ul li a:hover {
+    color: black;
+}
+
+.lower-header {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.intro h1 {
+    font-size: 3rem;
+    color: white;
+    background-color: pink;
+}
+
+.intro p {
+    font-size: 1rem;
+    color: white;
+    background-color: pink;
+}
+
+.lower-header button {
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 0.2rem;
+    background-color: rgb(241, 69, 69);
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.lower-header button:hover {
+    background-color: rgb(4, 136, 136);
+}
+
+.lower-header button a {
+    background-color: pink;
+    color: white;
+    transition: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.lower-header button a:hover {
+    color: black;
+}
+
+.fetaured {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 4rem 6rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.card h3 {
+    font-size: 0.9rem;
+    background-color: pink;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.info p {
+    background-color: pink;
+    color: rgb(102, 102, 102);
+}
+
+.some-img {
+    height: 90vh;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.profile {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.personal-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.personal-info h4 {
+    font-size: 1.5rem;
+    background-color: pink;
+}
+
+.personal-info p {
+    font-size: 0.8rem;
+    background-color: pink;
+    color: red;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.7rem;
+}
+
+.icon {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.fa-brands {
+    border: 1px solid rgb(175, 173, 173);
+    color: rgb(175, 173, 173);
+    padding: 0.7rem 0.8rem;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.fa-brands:hover {
+    color: black;
+    border-color: black;
+}
+
+.slider {
+    height: 54vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main {
+    background-color: rgb(101, 76, 102);
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    padding-inline: 7rem;
+}
+
+.main-theam {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.main-theam h2 {
+    font-size: 2.5rem;
+    color: white;
+    background-color: pink;
+    font-weight: 500;
+}
+
+.main-theam p {
+    font-size: 1rem;
+    color: white;
+    background-color: pink;
+    font-weight: 500;
+}
+
+.slide-show {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.slide-show button {
+    width: 0.7rem;
+    height: 0.7rem;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(197, 195, 195);
+    cursor: pointer;
+}
+
+.active {
+    background-color: white;
+}
+
+.download {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.download-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.download-info h2 {
+    background-color: pink;
+    color: rgb(43, 43, 43);
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.download-info p {
+    background-color: pink;
+    color: black;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.download button {
+    padding: 1rem 6rem;
+    border: none;
+    background-color: rgb(235, 67, 67);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.download button:hover {
+    background-color: rgb(4, 136, 136);
+}
+
+.download button a {
+    background-color: pink;
+    color: white;
+    text-decoration: none;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.download button a:hover {
+    color: black;
+}
+
+.upper-footer {
+    height: 30vh;
+    background-color: rgb(60, 60, 114);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 9rem;
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.location h4 {
+    background-color: pink;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.location-info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.location-info p {
+    background-color: rgb(255, 192, 203, 0.4);
+    color: white;
+}
+
+.share-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.share-icons i {
+    color: white;
+    border: 2px solid white;
+}
+
+.lower-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    background-color: rgb(40, 40, 88);
+    text-align: center;
+    padding: 2rem;
+}
+
+.lower-footer p {
+    background-color: pink;
+    color: white;
+}
+
+.fa-solid {
+    background-color: rgb(40, 40, 88);
+    color: red;
+}
